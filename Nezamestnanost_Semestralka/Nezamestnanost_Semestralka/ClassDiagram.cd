@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aplikacia">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQAAAAAAAAQAAABAAAAACAAEAAEIIAgAAASABAAgBQ=</HashCode>
+      <FileName>Aplikacia.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sortedKraje_" />
+      <Field Name="sortedOkresy_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kraj">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAEAgAACAICAAAAAAAAABAA=</HashCode>
+      <FileName>Kraj.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="zoznamNazvovOkresov_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Okres">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAQAAAAAAAAEQAAAAgRCAAAAAA=</HashCode>
+      <FileName>Okres.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="okresyVRoku_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OkresVRoku">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIQMAIAACoAQAAQABEECCgAIQgAAAQACEAAEAAAAA=</HashCode>
+      <FileName>OkresVRoku.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="disponibilnyPocetUchadzacov_" />
+      <Field Name="mieraEvidovanejNezamestnanosti_" />
+      <Field Name="ekonomickyAktivneObyvatelstvo_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="structures::SortedSequenceTable&lt;K, T&gt;">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAEAAAAAAAAAAAAACQAAAAAEAAAAAA=</HashCode>
+      <FileName>structures\table\sorted_sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::ArrayList&lt;T&gt;">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="structures::ArrayList&lt;T&gt;::ArrayListIterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>structures\list\array_list.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAABAAAAACYgAAABAQAEAAAEAAgAkEAECAAA=</HashCode>
+      <FileName>structures\list\array_list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
